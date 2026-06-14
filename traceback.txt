@@ -1,0 +1,27 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/level2.rpy", line 97, in script call
+    call minigame_note_run
+  File "game/level2.rpy", line 97, in script call
+    call minigame_note_run
+renpy.script.LabelNotFound: could not find label 'minigame_note_run'. Did you mean: 'minigame_shave_run'?
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "game/level2.rpy", line 97, in script call
+    call minigame_note_run
+  File "renpy/ast.py", line 1629, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+         ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/level2.rpy", line 97, in script call
+    call minigame_note_run
+  File "renpy/script.py", line 1217, in lookup
+    raise LabelNotFound(original)
+renpy.script.LabelNotFound: could not find label 'minigame_note_run'. Did you mean: 'minigame_shave_run'?
+
+Windows-11-10.0.26200-SP0 AMD64
+Ren'Py 8.5.3.26051504
+Pulse game 1.0
+Fri Jun 12 21:57:47 2026

@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/minigames.rpy", line 238: unterminated string literal
+    add "#00000
+
+Ren'Py Version: Ren'Py 8.5.3.26051504
+Fri Jun 12 23:00:28 2026
